@@ -1,0 +1,285 @@
+
+
+200~C:\Users\dinhl\Desktop\unit-1-git-practice
+
+### Step 2A
+	/c/Users/dinhl
+
+### Step 2B
+	/c/Users/dinhl/Desktop/unit-1-git-practice:
+
+### Step 2C
+	$ cd /c/Users/dinhl/Desktop/unit-1-git-practice
+
+### Step 2D
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~
+$ pwd
+/c/Users/dinhl
+
+
+### Step 2E
+	ls
+
+### Step 2F
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+	$ ls
+	my-steps.txt
+
+### Step 2G
+	cd ~
+
+### Step 2H
+	$ pwd
+/c/Users/dinhl
+
+
+### Step 2I
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{9cb96202-ad80-11ed-9798-82029079437f}.TM.blf
+ NTUSER.DAT{9cb96202-ad80-11ed-9798-82029079437f}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{9cb96202-ad80-11ed-9798-82029079437f}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+
+### Step 2J
+		dinhl@DESKTOP-5S6LT8H MINGW64 ~
+$ dinhl@DESKTOP-5S6LT8H MINGW64 ~
+$ pwd
+/c/Users/dinhl
+
+### Step 2K
+
+	$ cd /c/Users/dinhl/Desktop/unit-1-git-practice
+
+
+
+### Step 3A
+	pwd
+	mkdir veggies
+	mkdir meats
+	mkdir desserts
+	ls
+
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ mkdir veggies
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ mkdir meats
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ mkdir desserts
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ ls
+desserts/  meats/  my-steps.txt  photos/  veggies/
+
+
+### Step 3B
+	
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ mv desserts sweets
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ ls
+meats/  my-steps.txt  photos/  sweets/  veggies/
+
+
+
+
+### Step 3C
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ mkdir proteins
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ ls
+meats/  my-steps.txt  photos/  proteins/  sweets/  veggies/
+
+
+
+
+### Step 3D
+	meats/  my-steps.txt  photos/  proteins/  sweets/  veggies/
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ mv meats proteins/
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ ls
+my-steps.txt  photos/  proteins/  sweets/  veggies/
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ cd proteins
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/proteins
+$ ls
+meats/
+
+
+
+
+### Step 3E
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/proteins
+$ cd ~/Desktop/unit-1-git-practice
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ cd veggies
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/veggies
+$ touch carrot.txt
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/veggies
+$ touch pea.txt
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/veggies
+$ ls
+carrot.txt  pea.txt
+
+
+
+### Step 3F
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/veggies
+$ cd ~/Desktop/unit-1-git-practice
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ cd sweets
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/sweets
+$ touch cookie.txt
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/sweets
+$ ls
+cookie.txt
+
+
+
+### Step 3G
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/sweets
+$ mv cookie.txt donut.txt
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/sweets
+$ ls
+donut.txt
+
+
+
+### Step 3H
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/sweets
+$ cd ~/Desktop/unit-1-git-practice
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ touch thing.txt
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ ls
+my-steps.txt  photos/  proteins/  sweets/  thing.txt  veggies/
+
+
+### Step 3I
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ cp thing.txt tofu.txt
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ ls
+my-steps.txt  photos/  proteins/  sweets/  thing.txt  tofu.txt  veggies/
+
+
+### Step 3J
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice
+$ cd proteins
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/Desktop/unit-1-git-practice/proteins
+$ ls
+meats/  tofu.txt
+
+
+### Step 3K
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice
+$ cp thing.txt crab.txt
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice
+$ ls
+crab.txt  my-steps.txt  photos/  proteins/  sweets/  thing.txt  veggies/
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice
+$ mv crab.txt proteins/
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice
+$ cd proteins
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice/proteins
+$ ls
+
+
+### Step 3L
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice/proteins
+$ cd  ~/desktop/unit-1-git-practice/
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice
+$ rm thing.txt
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice
+$ ls
+my-steps.txt  photos/  proteins/  sweets/  veggies/
+
+
+### Step 3M
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice
+$ cp -r veggies plants
+
+
+### Step 3N
+	dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice
+$ mkdir drinks
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice
+$ ls
+drinks/  my-steps.txt  photos/  plants/  proteins/  sweets/  veggies/
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice
+$ rm -r drinks
+
+dinhl@DESKTOP-5S6LT8H MINGW64 ~/desktop/unit-1-git-practice
+$ ls
+my-steps.txt plants/  proteins/  sweets/  veggies/
+
+
+
+### Step 4
+
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
