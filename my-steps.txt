@@ -273,12 +273,66 @@ my-steps.txt plants/  proteins/  sweets/  veggies/
 
 
 ### Step 4
+	PS C:\Users\dinhl> cd ~\desktop\unit-1-git-practice
+PS C:\Users\dinhl\desktop\unit-1-git-practice>
+PS C:\Users\dinhl\desktop\unit-1-git-practice> git init
+Initialized empty Git repository in C:/Users/dinhl/Desktop/unit-1-git-practice/.git/
+PS C:\Users\dinhl\desktop\unit-1-git-practice> git add .
+warning: in the working copy of 'my-steps.txt', LF will be replaced by CRLF the next time Git touches it
+PS C:\Users\dinhl\desktop\unit-1-git-practice> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   my-steps.txt
+        new file:   plants/carrot.txt
+        new file:   plants/pea.txt
+        new file:   proteins/crab.txt
+        new file:   proteins/tofu.txt
+        new file:   sweets/donut.txt
+        new file:   veggies/carrot.txt
+        new file:   veggies/pea.txt
+
+PS C:\Users\dinhl\desktop\unit-1-git-practice> git commit -m "First Commit for Deliverable One"
+[master (root-commit) ab18417] First Commit for Deliverable One
+ 8 files changed, 285 insertions(+)
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
+PS C:\Users\dinhl\desktop\unit-1-git-practice> git remote add origin https://github.com/dl058/disposable_one.git
+PS C:\Users\dinhl\desktop\unit-1-git-practice> git branch -M main
+PS C:\Users\dinhl\desktop\unit-1-git-practice> git push -u origin main
+info: please complete authentication in your browser...
 
 
 ### Step 5
-
+	Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 1.41 KiB | 360.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/dl058/disposable_one.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\dinhl\desktop\unit-1-git-practice>
+PS C:\Users\dinhl\desktop\unit-1-git-practice>
+PS C:\Users\dinhl\desktop\unit-1-git-practice>
+PS C:\Users\dinhl\desktop\unit-1-git-practice>
+PS C:\Users\dinhl\desktop\unit-1-git-practice>
+PS C:\Users\dinhl\desktop\unit-1-git-practice>
+PS C:\Users\dinhl\desktop\unit-1-git-practice>
+fwd-i-search: _
 
 ### Step 6
+
 
 
 ### Step 7
